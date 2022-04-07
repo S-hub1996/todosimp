@@ -17,7 +17,10 @@ export const Todo = () =>{
         <input className="form-control" type={"text"} value = {task} placeholder = "enter todo name" onChange={handleChange}/>
         <button className="btn btn-primary w-100 my-2" onClick={()=> handleClick()}>Add</button>
         {todo.map((item)=>{
-            return <h1 className="text-muted">{item}</h1>
+            return <div className="d-flex form-check">
+            <h1  className="text-light bg-dark text-center form-check-label">{item}</h1>
+            <input type="radio" className="form-check-input mx-1 bg-warning" />
+            </div> 
         })}
         </div>
     )
