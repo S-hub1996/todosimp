@@ -24,7 +24,7 @@ export const Todo = () =>{
         {todo.map((item)=>{
             return <div className="d-flex form-check">
             <h1  className="text-light bg-success text-center form-check-label">{item}</h1>
-            <input type="radio" className="form-check-input mx-1 bg-warning" />
+            <input type="radio" className="form-check-input mx-1 bg-warning" onChange={todoDone()} />
             </div> 
         })}
         </div>

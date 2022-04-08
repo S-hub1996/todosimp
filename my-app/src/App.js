@@ -1,11 +1,21 @@
 import logo from './logo.svg';
+import React from 'react'
+
 import './App.css';
-import {Todo} from './Components/Todo'
+import {Todo} from './Components/Todo';
+import TodoList from './Components/TodoList';
 function App() {
+
+  
+
+
   return (
-<>
-<Todo/>
-</>
+<div className="App">
+  {/* Day1 */}
+{/* <Todo/> */}
+{/* Day2 */}
+<TodoList/>
+</div>
   );
 }
 
