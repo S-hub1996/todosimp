@@ -14,7 +14,7 @@ function App() {
   {/* Day1 */}
 {/* <Todo/> */}
 {/* Day2 */}
-<TodoList/>
+{/* <TodoList/> */}
 </div>
   );
 }
