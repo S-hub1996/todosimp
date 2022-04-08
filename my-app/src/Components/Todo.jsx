@@ -10,6 +10,11 @@ export const Todo = () =>{
         setTodo([...todo,task]);
         setTask=("")
     }
+    const todoDone=()=>{
+
+
+    }
+    
     console.log(todo,"todo")
     return (
         <div className="mx-5 w-25 p-3">
