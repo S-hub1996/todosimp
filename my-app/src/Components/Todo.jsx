@@ -18,7 +18,7 @@ export const Todo = () =>{
         <button className="btn btn-primary w-100 my-2" onClick={()=> handleClick()}>Add</button>
         {todo.map((item)=>{
             return <div className="d-flex form-check">
-            <h1  className="text-light bg-dark text-center form-check-label">{item}</h1>
+            <h1  className="text-light bg-success text-center form-check-label">{item}</h1>
             <input type="radio" className="form-check-input mx-1 bg-warning" />
             </div> 
         })}
